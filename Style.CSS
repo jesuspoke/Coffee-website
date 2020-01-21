@@ -1,0 +1,378 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    height: 600px;
+    width: 100%;
+    background-image: url("cafe.filter.25.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.header .name {
+    text-align: center;
+    vertical-align: middle;
+    color: #FEFEFE;
+    font-size: 100px;
+    position: relative;
+    top: 0px;
+    font-weight: 600;
+    text-shadow: 5px 5px black;
+}
+
+.nav {
+    background-color: #a50000;
+}
+
+.grapes {
+    color: #e5d3a0;
+}
+
+
+
+.centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.services {
+    position: relative;
+    text-align: center;
+
+}
+
+
+
+.Team img {
+    display: block;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    border-radius: 10%;
+   
+
+
+}
+
+.Team h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.Team h2 {
+    font-size: 25px;
+
+}
+
+.Team h3 {
+    font-size: 15px;
+
+}
+
+
+
+
+.contact .form-control {
+
+    border-radius: 0 !important;
+    z-index: 1;
+}
+
+.contact span {
+    width: 30px;
+    border-radius: 0 !important;
+}
+
+.contact .btn {
+
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #fa0511;
+    color: #fff;
+    z-index: 1;
+}
+
+.contact .btn:hover {
+
+    background-color: #778899 !important;
+    color: #fff !important;
+}
+
+.contact i {
+    text-align: center;
+    padding: 5px;
+}
+
+.fab {
+    padding: 20px;
+}
+
+.carousel-item img {
+    width: 30%;
+    height: 600px;
+    background-size: 100% 100%;
+
+
+}
+
+.carousel-caption p {
+    text-align: center;
+    vertical-align: middle;
+    color: #FEFEFE;
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+.carousel-caption {
+    top: 50px;
+}
+
+.carousel-caption h1{
+    font-size: 52px;
+}
+
+.trusted #reviewer {
+    border-radius: 40%;
+    width: 100%;
+}
+
+.trusted h2 {
+    text-align: center;
+}
+
+.trusted p {
+    padding: 15px;
+}
+
+.trusted i {
+    font-size: 55px;
+    padding: 15px;
+}
+
+.customer {
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 45%;
+    object-fit: cover;
+}
+
+.customer p {
+    margin-top: 10px;
+}
+
+.customerdream {
+    width: 58%;
+    border-radius: 60px;
+}
+
+.customerwish {
+    width: 68%;
+    height: 50%;
+    border-radius: 60px;
+}
+
+.card {
+    border-radius: 25px
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.Menu {
+    text-align: center;
+}
+
+.rowmenu {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.social {
+    color: white;
+    position: relative;
+    left: 500px;
+    top: -10px;
+    display: inline;
+
+}
+.social a {
+    color: white;
+    float: left;
+}
+
+.location iframe {
+    position: absolute;
+    left: 0px;
+    top: -8px;
+}
+
+.footer button {
+    background-color: brown;
+    color: white;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+
+}
+
+.footer i {
+    color: white;
+    position: relative;
+    left: 80px;
+}
+
+.footer spam {
+    display: inline;
+}
+
+.footer h7 {
+    font-size: 13px;
+}
+
+.navbar ul {
+    position: absolute;
+    top: 10px;
+}
+
+.navbar i {
+    position: relative;
+    left: 5px;
+}
+
+.location {
+    margin-top: 40px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.rowmenu img {
+    animation-name: fadeInUp;
+    animation-duration: 4s;
+
+}
+
+.rowmenu p {
+    animation-name: fadeInUp;
+    animation-duration: 4s;
+}
+
+
+
+#secline {
+    width: 50%;
+}
+
+.navbar-nav a {
+    color: white;
+}
+
+
+.card-body {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+
+}
+
+
+
+
+.Team-container {
+    position: relative;
+    width: 50%;
+}
+
+
+.image {
+    display: inline-block;
+    width: 255px;
+    height: 255px;
+}
+
+/*.custom-coffee-page {*/
+
+/*    background-image: */
+
+/*}*/
+
+.overlay {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 76%;
+    height: 0;
+    opacity: 0.8;
+    transition: .8s ease;
+    border-radius: 10%;
+}
+
+
+.chad:hover .overlay {
+    height: 100%;
+}
+
+.jackie:hover .overlay {
+    height: 100%;
+}
+
+.cara:hover .overlay {
+    height: 100%;
+}
+
+.shawn:hover .overlay {
+    height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.coffee {
+     position: relative;
+}
+
+
+.Menu {
+    background-color: #f5f3eb;
+
+}
+
+.top-menu {
+    background-color: White;
+}
+
+
+
